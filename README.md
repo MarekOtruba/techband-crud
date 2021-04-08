@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## CRUD app
+Dependencies [Laravel](https://laravel.com/docs/8.x/installation), [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [composer](https://getcomposer.org/download/).
+
+1. Clone project
+2. Install composer packages - *composer update*
+3. Install npm packages - *npm install*
+4. Run npm - *npm run prod*
+5. Create mysql database and **.env** file (rename [.env.example file](https://github.com/MarekOtruba/techband-crud/blob/master/.env.example) and change credentials)
+6. Run migrations - *php artisan migrate*
+7. Run database seeders - *php artisan db:seed*
+8. Run app - *php artisan serve*
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
